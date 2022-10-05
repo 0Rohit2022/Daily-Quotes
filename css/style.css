@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+
+}
+body{
+    font-family: cursive;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.inner {
+    width: 70%;
+    height: 70%;
+    background-color: rgb(130, 186, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.5);
+}
+.box{
+    width: 70%;
+    height: 70%;
+    background-color: rgb(253, 253, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 6px 8px 4px 6px rgba(0, 0, 0, 0.5);
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+.text{
+    margin: 20px;
+    
+}
+.start-quote{
+    margin: 15px;
+}
+.number img{
+    height: 40px;
+    width: 40px;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.quotes {
+    font-size: 1.2rem;
+    color: grey;
+    margin-left: 15px;
+    text-align: justify;
+}
+.author{
+    font-size: 1rem;
+    color: grey;
+    margin-left: 40px;
+}
+
+.button{
+    background-color: cornflowerblue;
+    margin: 10px 0;
+    width: 110%;
+    text-align: center;
+    position: absolute;
+    top: 88%;
+    border-radius: 10px;
+    
+}
+button{
+    background-color: cornflowerblue;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    transition: 0.4s ease-in-out;
+    margin-bottom: 50px;
+}
+button:hover{
+    cursor: pointer;
+    font-size: 1.5rem;
+   margin-bottom: 50px;
+   transition: 0.4s ease-in-out;
+
+}
